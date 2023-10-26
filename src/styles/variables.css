@@ -1,0 +1,18 @@
+* {
+	/* colors */
+	--bg-body: linear-gradient(130deg, #628e75 0.66%, #1a4855 83.32%);
+	--clr-brand: #628e75; /* green */
+	--clr-white: #f3f5f7;
+
+	/* font weight */
+	--fw-black: 900;
+	--fw-bold: 700;
+	--fw-semin-bold: 600;
+	--fw-medium: 500;
+	--fw-regular: 400;
+
+  /* font sizes */
+  --fs-display-lg: 56px;
+  --fs-heading: 20px;
+  --fs-base: 16px;
+}
