@@ -1,0 +1,59 @@
+.header {
+	position: fixed;
+
+	display: flex;
+	justify-content: space-between;
+
+	width: 90%;
+	height: 10vh;
+
+	padding: 1rem;
+}
+
+.logo {
+	object-fit: contain;
+	height: auto;
+}
+
+.header .nav {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.header .nav img {
+	width: 1rem;
+}
+
+@media (min-width: 1300px) {
+	.header {
+		position: fixed;
+
+		display: flex;
+		justify-content: space-between;
+
+		width: 100%;
+		height: 10vh;
+
+		padding-left: 8rem;
+		padding-block: 1rem;
+	}
+
+	.logo {
+		width: 100px;
+		object-fit: contain;
+		height: auto;
+	}
+
+	.header .nav {
+		display: flex;
+		align-items: center;
+		gap: 2rem;
+
+		width: 30%;
+	}
+
+	.header .nav img {
+		width: auto;
+	}
+}
