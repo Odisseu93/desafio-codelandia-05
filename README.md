@@ -40,12 +40,12 @@ para rodar o projeto, siga os passo abaixo:
    ```
 
 ## Design
-**Figma: [🔗️](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=4261%3A2&mode=dev)**
+**Figma: [🔗️](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=5867%3A2&mode=dev)**
 
 **Autor: [Iuri Silva](https://www.instagram.com/iuricode/)**
 
 ## Live site
-# **[🔗️]()**
+# **[🔗️](https://desafio-codelandia-05.vercel.app/)**
 
 ## Screenshots
 
@@ -54,6 +54,10 @@ para rodar o projeto, siga os passo abaixo:
 <b>click aqui para abrir</b>
 </summary>
 
+![Desktop](./preview/desktop.png)
+
+![Mobile](./preview/mobile.png)
+    
 
 </details>
 
