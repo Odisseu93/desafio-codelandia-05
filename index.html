@@ -3,15 +3,77 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais."
+		/>
 
 		<link rel="icon" type="image/svg+xml" href="/assets/img/logo.svg" />
+		<!-- CSS  -->
 		<link rel="stylesheet" href="./src/styles/globals.css" media="all" />
+
+		<!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+			rel="stylesheet"
+		/>
 
 		<title>A viagem de Chihiro</title>
 	</head>
+	<header class="header">
+		<img src="/assets/img/logo.svg" alt="logo" />
+
+		<nav class="nav">
+			<a class="nav__social-links" href="#facebook"
+				><img src="/assets/img/icons/facebook.svg" alt="facebook link"
+			/></a>
+			<a class="nav__social-links" href="#instagram"
+				><img src="/assets/img/icons/instagram.svg" alt="instagram link"
+			/></a>
+			<a class="nav__social-links" href="#twitter"
+				><img src="/assets/img/icons/twitter.svg" alt="twitter link"
+			/></a>
+			<a class="nav__social-links" href="#youtube"
+				><img src="/assets/img/icons/youtube.svg" alt="youtube link"
+			/></a>
+		</nav>
+	</header>
 
 	<body>
-		<div id="app"></div>
+		<header></header>
+		<main class="hero">
+			<div class="hero__image">
+				<img
+					class="hero__image__img"
+					src="/assets/img/illustration.png"
+					alt="illustration"
+				/>
+			</div>
+
+			<div class="hero__body">
+				<div class="hero__body__display">
+					<p>HAYAO MIYAZAKI</p>
+					<h1>A VIAGEM DE CHIHIRO</h1>
+				</div>
+
+				<p class="hero__body__paragraph">
+					Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a
+					desobedecem são transformados em animais.
+				</p>
+
+				<div class="hero__body__buttons">
+					<button class="watch-movie">
+						<span>
+							<img src="/assets/img/icons/play.svg" alt="" />
+							Assistir agora</span
+						>
+					</button>
+					<button class="watch-trailer"><span>assista o trailer</span></button>
+				</div>
+			</div>
+		</main>
 		<script type="module" src="./src/scripts/main.js"></script>
 	</body>
 </html>
