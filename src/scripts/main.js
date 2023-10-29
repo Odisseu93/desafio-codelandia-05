@@ -1,1 +1,1 @@
-console.log('Hello Desafio 06');
+console.log("Hello Desafio 06");
